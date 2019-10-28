@@ -39,6 +39,7 @@ background: linear-gradient(52deg, rgba(225,157,56, 0.5) 31%, rgba(201, 101, 172
 .signupTag a{
     text-decoration: none;
     color: #58a6d3;
+    font-weight: 500;
 }
 .h3{
     color: #866111;
