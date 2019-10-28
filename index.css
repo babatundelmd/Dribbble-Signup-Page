@@ -15,7 +15,7 @@ background: linear-gradient(52deg, rgba(225,157,56, 0.5) 31%, rgba(201, 101, 172
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-grow: 1;
-    width: 900px;
+   max-width: 1000px;
     border-radius: 10px;
 }
 
@@ -40,7 +40,9 @@ background: linear-gradient(52deg, rgba(225,157,56, 0.5) 31%, rgba(201, 101, 172
 .signup-wrapper{
     background: #fff;
     padding: 30px;
-    width: 600px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .signup-wrapper p{
@@ -51,6 +53,9 @@ background: linear-gradient(52deg, rgba(225,157,56, 0.5) 31%, rgba(201, 101, 172
 
 .signup-details{
     padding: 40px;
+    flex-direction: column;
+    justify-content: center;
+   
 
 }
 
@@ -96,4 +101,15 @@ background: linear-gradient(52deg, rgba(225,157,56, 0.5) 31%, rgba(201, 101, 172
     border-radius: 2px;
 
 
+}
+
+form{
+    justify-content: center;
+    flex: none;
+    padding-left: 80px;
+}
+
+.form-group{
+    display: flex;
+    padding: none;
 }
